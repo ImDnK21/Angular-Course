@@ -8,9 +8,15 @@ import { Component } from '@angular/core';
 export class ListadoComponent  {
 
   heroes : string[] = ['Spiderman','Hulk','IronMan','Capitan America'];
+  heroeBorrado : string = '';
+
+ 
 
   borrarHeroe(){
-    console.log('borrando...');
-    this.heroes
+    this.heroeBorrado = this.heroes.pop() || '';
+    // console.log(heroeBorrado);
+    
   }
+ 
+
 }
