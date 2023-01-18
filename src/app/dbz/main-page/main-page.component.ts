@@ -26,26 +26,9 @@ export class MainPageComponent {
     }
   ];
 
-  nuevo: Personaje = {
-    nombre : '',
-    poder: 0
-  }
-
-  agregar(){
-    if (this.nuevo.nombre.trim().length === 0) {
-      return
-    }
-    console.log('has agregado un personaje');
-    console.log(this.nuevo);
-    this.personajes.push(this.nuevo)
-    this.nuevo = { 
-      nombre : '',
-      poder : 0
-    }
-    console.log(this.personajes);
-
-    //.this.personajes.push
-    //.this.nuevo = { }
+  nuevo : Personaje = {
+    nombre : 'maestro Roshi',
+    poder : 1000
   }
 
   // cambiarNombre(event : any){

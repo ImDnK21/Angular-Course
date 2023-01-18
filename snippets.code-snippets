@@ -15,10 +15,22 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-    "Fast Comment in HTML": {
+	//. COPIAR ESTOS SNIPPETS Y PEGARLOS DENTRO DEL ARCHIVO LOCAL DE SNIPPETS
+	"Fast Comment in HTML": {
 		"scope": "html",
 		"prefix": "FastCom",
 		"body": "$BLOCK_COMMENT_START Txt $BLOCK_COMMENT_END",
 		"description": "Comentario Rapido en HTML5"
+	  },
+	  "Interface": {
+		"scope": "typescript",
+		"prefix": "newInterface",
+		"body": [
+			"interface  {",
+			"",
+			"",
+				"}"
+		],
+		"description": "Nueva interface Typescript"
 	  },
 }
