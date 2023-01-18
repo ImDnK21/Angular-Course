@@ -21,6 +21,10 @@
             true,
             "rxjs/Rx"
         ],
+        "editor.codeActionsOnSave": {
+
+        },
+        "editor.formatOnSave": true,
         "import-spacing": true,
         "indent": {
             "options": [

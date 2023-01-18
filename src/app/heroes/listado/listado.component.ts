@@ -5,18 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './listado.component.html',
   styleUrls: ['./listado.component.css']
 })
-export class ListadoComponent  {
+export class ListadoComponent {
 
-  heroes : string[] = ['Spiderman','Hulk','IronMan','Capitan America'];
-  heroeBorrado : string = '';
+  heroes: string[] = ['Spiderman', 'Hulk', 'IronMan', 'Capitan America'];
+  heroeBorrado: string = '';
 
- 
 
-  borrarHeroe(){
+  borrarHeroe() {
+
     this.heroeBorrado = this.heroes.pop() || '';
     // console.log(heroeBorrado);
-    
+
   }
- 
+
 
 }
